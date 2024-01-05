@@ -20,16 +20,25 @@ body {
 }
 
 /******** Boostrap Styles ************/
-.navbar-brand img{
+
+.bg-dark {
+  background-color: var(--second-color) !important;
+}
+
+.navbar-brand img {
   height: 3rem;
   width: auto;
 }
 
-.bg-dark{
-  background-color: var(--second-color) !important;
+.nav-item{
+  margin-left: .2rem;
+  transition: all 0.2s ease-in-out;
 }
 
-
+.nav-item:hover {
+  background-color: var(--first-alpha-color);
+  border-radius: .5rem;
+}
 
 /******** My Styles ************/
 
