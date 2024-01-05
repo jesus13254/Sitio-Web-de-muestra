@@ -20,6 +20,16 @@ body {
 }
 
 /******** Boostrap Styles ************/
+.navbar-brand img{
+  height: 3rem;
+  width: auto;
+}
+
+.bg-dark{
+  background-color: var(--second-color) !important;
+}
+
+
 
 /******** My Styles ************/
 
