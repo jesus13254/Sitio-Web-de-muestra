@@ -20,6 +20,15 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+a{
+  color: var(--link-color);
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover{
+  color: var(--first-color);
+}
+
 /******** Boostrap Styles ************/
 
 .bg-dark {
@@ -75,6 +84,8 @@ body {
   background-color: var(--first-alpha-color);
   color: var(--bs-white-rgb);
 }
+
+
 
 /******** My Styles ************/
 
