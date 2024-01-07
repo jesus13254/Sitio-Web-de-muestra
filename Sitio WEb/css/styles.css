@@ -29,6 +29,10 @@ a:hover{
   color: var(--first-color);
 }
 
+a:active{
+  color: var(--link-alpha-color);
+}
+
 /******** Boostrap Styles ************/
 
 .bg-dark {
@@ -68,6 +72,10 @@ a:hover{
 
 .nav-link:hover{
   color: var(--bs-white-rgb);
+}
+
+.nav-link:active{
+  color: var(--link-alpha-color);
 }
 
 .dropdown-menu,
