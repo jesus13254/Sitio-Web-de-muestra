@@ -110,6 +110,10 @@ a:active{
 }
 
 
+.bg-third-color{
+  background-color: var(--third-color);
+}
+
 
 
 /******** My Styles ************/
