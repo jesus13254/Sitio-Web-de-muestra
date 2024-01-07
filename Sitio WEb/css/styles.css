@@ -13,6 +13,8 @@
   --bg-color: rgb(245, 245, 245);
   --bg-alpha-color: rgba(245, 245, 245, 0.75);
   --bs-white-rgb: rgb(255, 255, 255);
+  --btn-success: rgb(151, 191, 4);
+  --btn-success-hover: rgb(151, 191, 4, 0.70);
 }
 
 /******** Reset Styles ************/
@@ -87,11 +89,26 @@ a:active{
 }
 
 
-
 .dropdown-item:hover{
   background-color: var(--first-alpha-color);
   color: var(--bs-white-rgb);
 }
+
+
+.bg-gradient-blue-green{
+  background-color: rgba(83, 184, 152, 1);
+  background-image: linear-gradient(
+    135deg,
+    rgba(47, 145, 224, 0.91),
+    rgba(7, 31, 51, 0.91) 79%
+  );
+  background-image: linear-gradient(
+    131deg,
+    rgba(28, 118, 173, 0.92),
+    rgba(83, 184, 152, 1)
+  );
+}
+
 
 
 
