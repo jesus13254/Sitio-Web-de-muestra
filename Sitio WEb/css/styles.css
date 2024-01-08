@@ -114,6 +114,10 @@ a:active{
   background-color: var(--third-color);
 }
 
+.bg-color{
+  background-color: var(--bg-color);
+}
+
 
 
 /******** My Styles ************/
