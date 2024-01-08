@@ -141,6 +141,17 @@ a:active{
 }
 }
 
+.card{
+  transition: all 0.1s ease-in-out;
+}
+
+.card:hover{
+  box-shadow: 
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.2); ;
+}
+
+
+
 /*X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
