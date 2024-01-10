@@ -70,6 +70,12 @@ a:active {
 }
 
 
+.bg-second-color{
+  background-color: var(--second-alpha-color);
+  opacity: 70%;
+}
+
+
 .bg-alpha-color{
   background-color: var(--bg-alpha-color);
 }
